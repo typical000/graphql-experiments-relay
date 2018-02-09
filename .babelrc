@@ -5,6 +5,7 @@
     "stage-0"
   ],
   "plugins": [
+    "relay",
     "transform-runtime",
     "transform-react-constant-elements"
   ],

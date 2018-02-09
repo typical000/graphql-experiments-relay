@@ -1,5 +1,0 @@
-fragment likeFields on Like {
-  id
-  available
-  active
-}

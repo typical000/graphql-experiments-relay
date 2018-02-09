@@ -1,4 +1,0 @@
-fragment locationData on Geo {
-  city
-  country
-}

@@ -1,4 +1,4 @@
-# Apollo GraphQL experiments
+# Relay GraphQL experiments
 
 Created by Pavel Davydov
 
@@ -17,24 +17,24 @@ Starts client dev-server on `localhost:4000`
 # TODO
 
 - [x] Configure environment
-- [x] Setup apollo server
+- [ ] Setup relay server (Based on apollo)
 - [x] Create skeleton for future site
   - [x] Layout for logged in or guest user
   - [x] Header
   - [x] Search results with 'Load more'
-- [x] General GraphQL patterns
-  - [x] Query batching
-  - [x] Using fragments
-  - [x] Using variables in GraphQL. Passing params
-  - [x] Load more, pagination
-  - [x] Mutations
-  - [x] Use loader for *.graphql files (https://github.com/apollographql/graphql-tag#webpack-preprocessing-with-graphql-tagloader)
-- [x] GraphQL on frontend (Apollo)
-  - [x] Query on server
-  - [x] Fragments usage
-  - [x] Send mutations on server
-  - [x] Directly change data in cache
-  - [x] Optimistic updates
+- [ ] General GraphQL patterns
+  - [ ] Query batching
+  - [ ] Using fragments
+  - [ ] Using variables in GraphQL. Passing params
+  - [ ] Load more, pagination
+  - [ ] Mutations
+  - [ ] Use loader for *.graphql files (https://github.com/apollographql/graphql-tag#webpack-preprocessing-with-graphql-tagloader)
+- [ ] GraphQL on frontend (Relay)
+  - [ ] Query on server
+  - [ ] Fragments usage
+  - [ ] Send mutations on server
+  - [ ] Directly change data in cache
+  - [ ] Optimistic updates
 - [ ] Tests
   - [ ] Setup tests on frontend
   - [ ] Setup tests on backend

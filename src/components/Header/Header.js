@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import injectSheet from '../../utils/jss'
-import LogoutButton from '../../containers/Logout'
+// import LogoutButton from '../../containers/Logout'
 import Avatar from '../Avatar'
 
 const styles = theme => ({
@@ -63,7 +63,7 @@ const Header = ({children, classes, user}) => {
             <Avatar src={user.avatar} small round />
           </div>
           <div className={classes.actions}>
-            <LogoutButton />
+            {/* <LogoutButton /> */}
           </div>
         </div>
       </div>

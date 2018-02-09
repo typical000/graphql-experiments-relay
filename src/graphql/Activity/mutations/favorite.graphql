@@ -1,7 +1,0 @@
-mutation Favorite($id: Int!) {
-  favorite(id: $id) {
-    id
-    active
-    available
-  }
-}

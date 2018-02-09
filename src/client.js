@@ -4,16 +4,13 @@ import 'whatwg-fetch'
 import {jss, ThemeProvider, JssProvider} from './utils/jss'
 import theme from './theme'
 import App from './components/App'
-import GraphQLProvider from './containers/GraphQLProvider'
 
 hydrate(
-  <GraphQLProvider>
-    <ThemeProvider theme={theme}>
-      <JssProvider jss={jss}>
-        <App />
-      </JssProvider>
-    </ThemeProvider>
-  </GraphQLProvider>,
+  <ThemeProvider theme={theme}>
+    <JssProvider jss={jss}>
+      <App />
+    </JssProvider>
+  </ThemeProvider>,
   document.getElementById('app')
 )
 
